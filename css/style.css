@@ -13,7 +13,11 @@
     position : absolute;
     text-align: center;
 }
-
+#location{
+    text-align:left;
+    color:white;
+    margin-left:30px;
+}
 #login-form input{
     border: none;
     outline : none;
@@ -87,6 +91,7 @@
     opacity: 0.5;
 } */
 img{
+    object-fit: cover;
     z-index: -1;
     position:absolute;
     width: 100%;
