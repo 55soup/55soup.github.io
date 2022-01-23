@@ -14,8 +14,7 @@ function getClock(){ ///"1".padEnd(2,"0") => 20
     const date = new Date();
     const hours = String(date.getHours()).padStart(2,"0"); ///"1".padStart(2,"0") => 01 
     const minutes = String(date.getMinutes()).padStart(2,"0");
-    const seconds = String(date.getSeconds()).padStart(2,"0");
-    clock.innerText=`${hours}:${minutes}:${seconds}`;
+    clock.innerText=`${hours}:${minutes}`;
 }
 
 getClock();
