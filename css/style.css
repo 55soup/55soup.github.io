@@ -13,10 +13,26 @@
     position : absolute;
     text-align: center;
 }
+.main>div{
+    transition:0.5s all;
+}
+.main>div:hover{
+    top: 50px;
+    transform:translateY(-50%);
+}
+#locationBlack{
+    margin-left:20px;
+}
+#locateImg{
+    display: block;
+    width: 15px;
+    height: 25px;
+
+}
 #location{
     text-align:left;
     color:white;
-    margin-left:30px;
+    margin-left:25px;
 }
 #login-form input{
     border: none;
@@ -24,6 +40,11 @@
     background : none;
     font-size : 20px;
     text-align: center;
+    color: ivory;
+
+}
+#login-form input::placeholder{
+    color:slategray;   
 }
 #greeting{
     color:ivory;
@@ -67,12 +88,13 @@
     font-size:15px;
 }
 #quote span{
-    margin-top : 20px;
+    margin-top : 40px;
     color:white;
+    /* transition: 0.5s all; */
 }
 #quote #quotes{
     display : block;
-    font-size:30px
+    font-size:30px;
 }
 #quote #author{
     font-size: 15px;
@@ -83,13 +105,14 @@
     color: ivory;
 
 }
-/* {
+#background-layer{
+    /* z-index: -1; */
     position : absolute;
     width: 100%;
     height : 100%;
     background-color: black;
     opacity: 0.5;
-} */
+}
 img{
     object-fit: cover;
     z-index: -1;
