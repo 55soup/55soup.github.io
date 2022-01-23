@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hidden{
+    display:none;
+}
+.main{
+    left: 0;
+    right: 0;
+    margin-top: 30px;
+    position : absolute;
+    text-align: center;
+}
+
+#login-form input{
+    border: none;
+    outline : none;
+    background : none;
+    font-size : 20px;
+    text-align: center;
+}
+#greeting{
+    color:ivory;
+}
+#clock{
+    text-align: center;
+    font-size: 100px;
+    color:ivory;
+}
+#todo-form input{
+    margin : 30px;
+    padding : 5px 20px;
+    border : none;
+    outline : none;
+    background: none;
+    border-bottom: 1px solid white;
+    border-top : 1px solid white;
+    font-size:30px;
+    color: ivory;
+    text-align: center;
+    width: 450px;
+}
+#todo-form input::placeholder{
+    color:white;
+}
+#todo-list{
+    margin: 34px;
+}
+#todo-list li{
+    margin: 8px;
+}
+#todo-list li span{
+    color:white;
+    font-size: 15px;
+}
+#todo-list li button{
+    margin-left:5px;
+    outline: 0;
+    border: 0;
+    background: none;
+    font-size:15px;
+}
+#quote span{
+    margin-top : 20px;
+    color:white;
+}
+#quote #quotes{
+    display : block;
+    font-size:30px
+}
+#quote #author{
+    font-size: 15px;
+}
+#weather { 
+    margin-top: 155px;
+    font-size: 20px;
+    color: ivory;
+
+}
+/* {
+    position : absolute;
+    width: 100%;
+    height : 100%;
+    background-color: black;
+    opacity: 0.5;
+} */
+img{
+    z-index: -1;
+    position:absolute;
+    width: 100%;
+    height: 100%;
+}
