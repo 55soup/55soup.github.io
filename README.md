@@ -1,5 +1,9 @@
 # 55soup.github.io
 
+✏강의사이트<br>
+https://nomadcoders.co/javascript-for-beginners 
+<br><br>
+👇웹사이트로 가기<br>
 [55soup.github.io](https://55soup.github.io)
 
 ![image](https://user-images.githubusercontent.com/86298664/174797097-87546bf6-8aa6-4e73-9eb3-ad1e3dce31a2.png)
